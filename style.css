@@ -89,7 +89,7 @@ nav a:hover
 {
 	margin-top: -25px;
 	font-size: 1.3em;
-    color: #181818;
+    color:#0065FC;
     text-decoration: none;
     margin-left: 10%;
     margin-right: 3%;
@@ -100,12 +100,12 @@ nav a:hover
 	margin-left: 3%;
 }
 
-#recherche h1
+#recherche h2
 {
  	font-size: 2em;
 }
 
-#recherche h2
+#recherche h3
 {
     font-size: 1.5em;
     font-weight: normal;
@@ -289,7 +289,7 @@ button:hover
 	margin-bottom: 20px;
 }
 
-#info h2
+#info h3
 {
 	margin-left: 10px;
 }
@@ -431,7 +431,7 @@ aside
 	margin-bottom: 15%;
 }
 
-section h1,h2
+section h2,h3
 {
 	margin: 0%;
 	font-size: 2em;
@@ -465,7 +465,7 @@ footer
 	padding-bottom: 30px;
 }
 
-footer h1
+footer h2
 {
     font-size: 2em;
 }
@@ -531,7 +531,7 @@ footer a
 	height: 40%;
 }
 
-#hb1 h1
+#hb1 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -539,7 +539,7 @@ footer a
 	padding-bottom: 2.6%;
 }
 
-#hb1 h2
+#hb1 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -582,7 +582,7 @@ footer a
 	height: 40%;
 }
 
-#hb2 h1
+#hb2 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -590,7 +590,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb2 h2
+#hb2 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -633,7 +633,7 @@ footer a
 	height: 40%;
 }
 
-#hb3 h1
+#hb3 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -641,7 +641,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb3 h2
+#hb3 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -684,7 +684,7 @@ footer a
 	height: 40%;
 }
 
-#hb4 h1
+#hb4 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -692,7 +692,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb4 h2
+#hb4 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -735,7 +735,7 @@ footer a
 	height: 40%;
 }
 
-#hb5 h1
+#hb5 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -743,7 +743,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb5 h2
+#hb5 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -785,7 +785,7 @@ footer a
 	height: 40%;
 }
 
-#hb6 h1
+#hb6 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -793,7 +793,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb6 h2
+#hb6 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;;
@@ -837,7 +837,7 @@ footer a
 	height: 100%
 }
 
-#hb7 h1
+#hb7 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -845,7 +845,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb7 h2
+#hb7 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;
@@ -890,7 +890,7 @@ footer a
 	height: 100%
 }
 
-#hb8 h1
+#hb8 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -898,7 +898,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb8 h2
+#hb8 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;
@@ -942,7 +942,7 @@ footer a
 	height: 100%
 }
 
-#hb9 h1
+#hb9 h2
 {
 	padding-top: 3%;
 	margin-left: 20px;
@@ -950,7 +950,7 @@ footer a
 	padding-bottom: 3%;
 }
 
-#hb9 h2
+#hb9 h3
 {
 	margin-left: 20px;
 	font-size: 1.2em;
@@ -992,7 +992,7 @@ footer a
 	height: 12%;
 }
 
-#act1 h1
+#act1 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1033,7 +1033,7 @@ footer a
 	height: 22%;
 }
 
-#act2 h1
+#act2 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1075,7 +1075,7 @@ footer a
 	height: 33%;
 }
 
-#act3 h1
+#act3 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1115,7 +1115,7 @@ footer a
 	height: 25%;
 }
 
-#act4 h1
+#act4 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1155,7 +1155,7 @@ footer a
 	height: 12%;
 }
 
-#act5 h1
+#act5 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1196,7 +1196,7 @@ footer a
 	height: 25%;
 }
 
-#act6 h1
+#act6 h2
 {
 	margin-left: 20px;
 	font-size: 1.5em;
@@ -1333,12 +1333,12 @@ footer a
 	    overflow-y: visible;
 	}
 
-	#recherche h1
+	#recherche h2
 	{
 	 	font-size: 2em;
 	}
 
-	#recherche h2
+	#recherche h3
 	{
 	    font-size: 1.4em;
 	    font-weight: normal;
@@ -1512,7 +1512,7 @@ footer a
 		padding-top: 3px;
 	}
 
-	#info h2
+	#info h3
 	{
 		margin-left: 2%;
 		font-size: 1.3em;
@@ -1644,7 +1644,7 @@ footer a
 	border: 10px solid white;
 	}
 
-	#hb7 h1
+	#hb7 h2
 	{
 	padding-top: 3%;
 	margin-left: 40px;
@@ -1652,7 +1652,7 @@ footer a
 	padding-bottom: 3%;
 	}
 
-	#hb7 h2
+	#hb7 h3
 	{
 	margin-left: 40px;
 	font-size: 1.2em;
@@ -1670,7 +1670,7 @@ footer a
 	border: 10px solid white;
 	}
 
-	#hb8 h1
+	#hb8 h2
 	{
 	padding-top: 3%;
 	margin-left: 40px;
@@ -1678,7 +1678,7 @@ footer a
 	padding-bottom: 3%;
 	}
 
-	#hb8 h2
+	#hb8 h3
 	{
 	margin-left: 40px;
 	font-size: 1.2em;
@@ -1696,7 +1696,7 @@ footer a
 	border: 10px solid white;
 	}
 
-	#hb9 h1
+	#hb9 h2
 	{
 	padding-top: 3%;
 	margin-left: 40px;
@@ -1704,7 +1704,7 @@ footer a
 	padding-bottom: 3%;
 	}
 
-	#hb9 h2
+	#hb9 h3
 	{
 	margin-left: 40px;
 	font-size: 1.2em;
