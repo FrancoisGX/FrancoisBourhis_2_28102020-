@@ -6,24 +6,20 @@
 
 body
 {
-	width: 100%;
+	margin: auto;
 }
 
 #bloc_page
 {
-    margin: auto;
     font-family: "raleway";
 }
 
 #header
 {
 	padding-top: 1%;
-	margin-left: 3%;
-	margin-right: 2.5%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 400px;
-    grid-auto-rows: minmax(100px, auto); 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #logo
@@ -34,6 +30,7 @@ body
 
 #logo img
 {
+	margin-left: 5%;
     width: 160px;
     height: 75px;
 }
@@ -41,41 +38,35 @@ body
 nav
 {
 	display: flex;
-	grid-column: 3;
+	grid-column: 2;
 	grid-row: 1;
-	margin-left: -50%;
-	text-align: right;
-	margin-right: 2.5%;
 }
 
 nav ul
 {
-	margin-top: -27px;
+	margin-left: 36%;
+	margin-top: -2%;
     list-style-type: none;
     display: flex;
-    padding-left: 10%;
-    border-top: 3px solid #FFFFFF;
-}
-
-#ul1
-{
-	margin-left: 0%;
+    width: 40%;
 }
 
 nav li
 {
 	display: flex;
-    margin-right: 45px;
+    width: 100%;
+    justify-content: center;
+    border-top: 3px solid #FFFFFF;
 }
 
 nav a
 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #181818;
     text-decoration: none;
-   	padding-top: 61px; 
+   	padding-top: 30%; 
 }
-nav ul:hover
+nav li:hover
 {
     border-top: 3px solid #0065FC;
 }
@@ -87,12 +78,14 @@ nav a:hover
 
 #inscription
 {
-	margin-top: -25px;
-	font-size: 1.3em;
+	grid-column: 2;
+	grid-row: 1;
+	padding-left: 75%;
+	margin-top: 4%;
+	font-size: 1.2em;
     color:#0065FC;
     text-decoration: none;
     margin-left: 10%;
-    margin-right: 3%;
 }
 
 #recherche
@@ -190,7 +183,7 @@ nav a:hover
 	margin-left: -40px;
 }
 
-#filtres h1
+#filtres h2
 {
 	padding-top: 30px;
 }
@@ -333,14 +326,12 @@ section
 
 #conteneur
 {
-
 	display: flex;
 	justify-content: center;
 }
 
 #conteneur01
 {
-
 	display: flex;
 	justify-content: center;
 
@@ -504,12 +495,12 @@ footer a
 	background-position: center -40px;
 	position:relative;
 	background-size:  100%;
-	border: 6px solid white;
+	border: 6.5px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
+
 }
 
 #hebergement1 a 
@@ -524,11 +515,14 @@ footer a
 #hb1
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb1 h2
@@ -558,7 +552,6 @@ footer a
 	border: 6px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
 }
@@ -575,11 +568,14 @@ footer a
 #hb2
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb2 h2
@@ -609,7 +605,6 @@ footer a
 	border: 6px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
 }
@@ -626,11 +621,14 @@ footer a
 #hb3
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb3 h2
@@ -660,7 +658,6 @@ footer a
 	border: 6px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
 }
@@ -677,11 +674,14 @@ footer a
 #hb4
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb4 h2
@@ -711,7 +711,6 @@ footer a
 	border: 6px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
 }
@@ -728,11 +727,14 @@ footer a
 #hb5
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb5 h2
@@ -762,7 +764,6 @@ footer a
 	border: 6px solid white;
 	width: 325px;
 	height: 255px;
-	overflow: auto;
 	border-radius: 25px;
 	box-shadow: 0px 0px 8px 1px #b8b8b8;
 }
@@ -778,11 +779,14 @@ footer a
 #hb6
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
+	left: -1px;
 	background-color: white;
 	color: black;
-	width: 100%;
+	width: 100.5%;
 	height: 40%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #hb6 h2
@@ -1222,13 +1226,23 @@ footer a
 	align-items: flex-start;
 }
 
-.stars 
+.stars
 {
 	display: inline-flex;
 	justify-content: center;
 	font-size: 1em;
 	margin-left: 20px;
 }
+
+.stars2
+{
+	display: inline-flex;
+	justify-content: center;
+	font-size: 1em;
+	margin-left: 20px;
+}
+
+
 
 .stars:hover .fa-star 
 {
@@ -1240,23 +1254,20 @@ footer a
 	color: #F2F2F2;
 }
 
-@media screen and (max-width: 1330px)
+@media screen and (max-width: 576px)
 {
-	#bloc_page
+	body
 	{
-		font-size: 1.9em;
+		font-size: 1em;
 	}
 
 	#header
 	{
 		font-size: 1.1em;
 		padding-top: 1%;
-		margin-left: 3%;
-		margin-right: 2.5%;
+		margin-left: 0%;
+		margin-right: 0%;
 	    display: grid;
-	    grid-template-columns: repeat(3,1fr);
-	    grid-gap: 40px;
-	    grid-auto-rows: minmax(30px, auto); 
 	    margin-bottom: 10%;
 	}
 
@@ -1268,38 +1279,43 @@ footer a
 
 	#logo img
 	{
-	    width: 300px;
-	    height: 125px;
+		margin-left: 5%;
+	    width: 100px;
+	    height: 50px;
 	}
 
 	nav
 	{
+		padding-right: 0px;
 		display: flex;
-		grid-column: 1;
-		grid-row: 2;
-		margin-left: -20px;
-		margin-top: -50px;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 2;
+		margin-left: 0%;
+		margin-top: -30px;
+		margin-right: 0%;
 	}
 
 	nav ul
 	{
-		padding-bottom: 20px;
+		width: 100%;
+		padding-left: 0px;
 		margin-bottom: 0px;
-	    border-bottom: 3px solid #F2F2F2;
 	    border-top: none;
 	    z-index: 1;
 	}
 
-	#li1
+	nav li
 	{
-		padding-left: 20px;
-	    padding-right: 20px;
-	}
-
-	#li2
-	{
-		padding-left: 130px;
-	    padding-right: 80px;
+		font-size: 70%;
+		padding-left: 0%;
+	    padding-right:0%;
+	    padding-bottom: 2%;
+	    width: 100%;
+	    justify-content: center;
+	    border-bottom :3px solid #F2F2F2;
+	    margin-right: 0px;
 	}
 
 	nav a
@@ -1310,10 +1326,14 @@ footer a
 	   	padding-top: 80px; 
 	}
 
+	nav li:hover
+	{
+	    border-bottom :3px solid #0065FC;
+	}
+
 	nav ul:hover
 	{
-	    border-bottom: 3px solid #0065FC;
-	    border-top:0px;
+		border-top: none;
 	}
 
 	nav a:hover
@@ -1323,27 +1343,30 @@ footer a
 
 	#inscription
 	{
-		margin-left: -250px;
-		margin-top: -150px;
-		grid-column: 2;
+		margin-left: 100px;
+		margin-top: 25px;
+		grid-column-start: 2;
+		grid-column-end: 2;
 		grid-row: 1;
-		font-size: 1.3em;
-	    color: #181818;
+		font-size: 0.8em;
+	    color:#0065FC;
 	    text-decoration: none;
-	    overflow-y: visible;
 	}
 
 	#recherche h2
 	{
-	 	font-size: 2em;
+	 	font-size: 1.4em;
+	 	margin-left: 5%;
+	 	margin-right: 5%;
 	}
 
 	#recherche h3
 	{
-	    font-size: 1.4em;
+	    font-size: 1em;
 	    font-weight: normal;
 	    margin-bottom: 10%;
 	    margin-top: 3%;
+	    margin-left: 5%;
 	}
 
 	.barre
@@ -1355,20 +1378,22 @@ footer a
 	.bouton_search
 	{
 		margin-top: 0px;
-		font-size: 0.5em;
-		width:120px;
-		height: 120px;
+		font-size: 0.3em;
+		width:50px;
+		height: 50px;
 		background-color: #0065FC;
 		color:white;
 		text-decoration:none;
-		border-top-right-radius: 2em;
-		border-top-left-radius: 2em;
-		border-bottom-right-radius: 2em;
-		border-bottom-left-radius: 2em;
+		border-top-right-radius: 3em;
+		border-top-left-radius: 3em;
+		border-bottom-right-radius: 3em;
+		border-bottom-left-radius: 3em;
 		margin-left: -5%;
 		outline:0;
 		border:none;
 		cursor: pointer;
+		padding-left: 10px;
+		padding-top: 7px;
 
 	}
 
@@ -1394,40 +1419,44 @@ footer a
 		padding-left: 20%;
 		border-style: solid;
 		border-color: #F2F2F2;
-		width:750px;
-		height: 120px;
-		font-size: 1.4em;
+		width:65%;
+		height: 50px;
+		max-width: 300px;
+		font-size: 1em;
 		font-weight: bold;
 		outline:0;
 		padding-left: 2%;
+		margin-bottom: 8%;
 	}
 
 	#loc
 	{
+		font-size: 0.5em;
+		margin-left: 5%;
 		background-color: #F2F2F2;
-		padding-top: 30px;
-		padding-left: 25px;
-		padding-right: 25px;
-		border-top-left-radius: 1em;
-		border-bottom-left-radius: 1em;
-		height: 90px;
+		padding-top: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-top-left-radius: 2em;
+		border-bottom-left-radius: 2em;
+		height: 35px;
 	}
 
 	#filtres
 	{
-		margin-left: 0px;
+		margin-left: 5%;
 		flex-direction: column;
+	}
+
+	#filtres h2
+	{
+		margin-left: 0px;
 	}
 
 	#filtres ul
 	{
 		flex-wrap: wrap;
-		padding-left: 0%;
-	}
-
-	#filtres h1
-	{
-		font-size: 1.5em;
+		padding-left: 2.5%;
 	}
 
 	button
@@ -1437,14 +1466,14 @@ footer a
 		margin-left: 6%;
 		padding-left: 0px;
 		padding-top: 0px;
-	    height : 80px;
+	    height : 40px;
 	    width: auto;
 	    display: flex;
-	    line-height: 75px;
+	    line-height: 35px;
 	    color: black;
 	    text-decoration: none;
 	    border-radius: 55px;
-	    font-size: 1.5em;
+	    font-size: 1em;
 	    background-color: white;
 	    cursor: pointer;
 	    justify-content: space-between;
@@ -1461,8 +1490,8 @@ footer a
 		font-size: 0.8em;
 		margin-top: -2px;
 		margin-left: -2px;
-		width: 80px; 
-	  	height: 79px;
+		width: 40px; 
+	  	height: 38px;
 		border: none;
 		border-radius: 70px;
 		background-color: #DEEBFF;
@@ -1475,8 +1504,8 @@ footer a
 		font-size: 0.8em;
 		margin-top: -2px;
 		margin-left: -2px;
-		width: 80px; 
-	  	height: 79px;
+		width: 40px; 
+	  	height: 38px;
 		border: none;
 		border-radius: 70px;
 		background-color: #DEEBFF ;
@@ -1489,8 +1518,8 @@ footer a
 		font-size: 0.8em;
 		margin-top: -2px;
 		margin-left: -2px;
-		width: 80px; 
-	  	height: 79px;
+		width: 40px; 
+	  	height: 38px;
 		border: none;
 		border-radius: 70px;
 		background-color: #DEEBFF ;
@@ -1503,8 +1532,8 @@ footer a
 		font-size: 0.8em;
 		margin-top: -2px;
 		margin-left: -2px;
-		width: 80px; 
-	  	height: 79px;
+		width: 40px; 
+	  	height: 38px;
 		border: none;
 		border-radius: 70px;
 		background-color: #DEEBFF ;
@@ -1515,16 +1544,19 @@ footer a
 	#info h3
 	{
 		margin-left: 2%;
-		font-size: 1.3em;
+		margin-right: 3%;
+		font-size: 0.95em;
 	}
 
 	#ico_info
 	{
+		font-size: 0.8em;
+		margin-left: 2.5%;
 		text-align: center;
-		line-height: 50px;
-		margin-top: 3%;
-		width: 60px; 
-	  	height: 50px;
+		line-height: 30px;
+		margin-top: 2%;
+		width: 35px; 
+	  	height: 28px;
 		border: solid 0.1em;
 		border-color: #F2F2F2;
 		border-radius: 50%;
@@ -1532,30 +1564,30 @@ footer a
 		color:#0065FC;
 	}
 
-   section
+   .groupe_popu_heber
    {
 	   	display: flex;
 	   	flex-direction: column-reverse;
+	   	margin:auto;
    }
 
    #popu
 	{
 	padding-top: 10%;
-	padding-left: 5%;
+	margin-left: -3%;
 	padding-right: 5%;
-	margin-bottom: 5%;
-	font-size: 0.8em;
+	padding-bottom: 5%;
+	font-size: 0.7em;
 	}
 
 	aside
 	{
-	margin-left: -5px;
-	margin-right: -5px;
-	background-color: #F2F2F2;
-	flex: 1.2;
-	border-radius: 0px;
-	display:flex;
-	flex-direction: column;
+		margin-left: 0%;
+		margin-right: 0px;
+		background-color: #F2F2F2;
+		flex: 1.2;
+		border-radius: 0px;
+		flex-direction: column;
 	}
 
    #heber
@@ -1571,91 +1603,188 @@ footer a
 	margin-top: 7%;
 	margin-left: 5%;
 	margin-bottom: 5%;
-	font-size: 1.7em;
+	font-size: 1.3em;
 	}
 
    #hebergement1
 	{
-	background-position: center -100px;
+	background-position: center -50px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb1 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb1 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement2
 	{
-	background-position: center -100px;
+	background-position: center -50px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb2 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb2 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement3
 	{
-	background-position: center -100px;
+	background-position: center -50px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb3 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb3 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement4
 	{
-	background-position: center -200px;
+	background-position: center -100px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb4 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb4 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement5
 	{
 	background-position: center -50px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb5 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb5 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement6
 	{
-	background-position: center -450px;
+	background-position: center -200px;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
+	border: 5px solid white;
+	}
+
+	#hb6 h2
+	{
+	padding-top: 3%;
+	margin-left: 10px;
+	font-size: 1em;
+	padding-bottom: 3%;
+	}
+
+	#hb6 h3
+	{
+	margin-left: 10px;
+	font-size: 0.9em;
+	padding-bottom: 2%;
+	font-weight: normal;
 	}
 
 	#hebergement7
 	{
 	background-position: -60%;
 	position:relative;
-	width: 800px;
-	height: 350px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 140px;
+	border-radius: 20px;
+	border: 5px solid white;
+	margin-bottom: 5%;
 	}
 
 	#hb7 h2
 	{
 	padding-top: 3%;
-	margin-left: 40px;
-	font-size: 1.3em;
+	margin-left: 20px;
+	font-size: 1em;
 	padding-bottom: 3%;
 	}
 
 	#hb7 h3
 	{
-	margin-left: 40px;
-	font-size: 1.2em;
+	margin-left: 20px;
+	font-size: 0.9em;
 	padding-bottom: 29%;
 	font-weight: normal;
 	}
@@ -1664,24 +1793,25 @@ footer a
 	{
 	background-position: -60%;
 	position:relative;
-	width: 800px;
-	height: 350px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 140px;
+	border-radius: 20px;
+	border: 5px solid white;
+	margin-bottom: 5%;
 	}
 
 	#hb8 h2
 	{
 	padding-top: 3%;
-	margin-left: 40px;
-	font-size: 1.3em;
+	margin-left: 20px;
+	font-size: 1em;
 	padding-bottom: 3%;
 	}
 
 	#hb8 h3
 	{
-	margin-left: 40px;
-	font-size: 1.2em;
+	margin-left: 20px;
+	font-size: 0.9em;
 	padding-bottom: 29%;
 	font-weight: normal;
 	}
@@ -1690,24 +1820,25 @@ footer a
 	{
 	background-position: 0% 100% 20%;
 	position:relative;
-	width: 800px;
-	height: 350px;
-	border-radius: 50px;
-	border: 10px solid white;
+	width: 320px;
+	height: 140px;
+	border-radius: 20px;
+	border: 5px solid white;
+	margin-bottom: 15%;
 	}
 
 	#hb9 h2
 	{
 	padding-top: 3%;
-	margin-left: 40px;
-	font-size: 1.3em;
+	margin-left: 20px;
+	font-size: 1em;
 	padding-bottom: 3%;
 	}
 
 	#hb9 h3
 	{
-	margin-left: 40px;
-	font-size: 1.2em;
+	margin-left: 20px;
+	font-size: 0.9em;
 	padding-bottom: 29%;
 	font-weight: normal;
 	}
@@ -1753,8 +1884,18 @@ footer a
    	padding-right: 0%;
    }
 
+   #conteneur2 .star
+   {
+	display: inline-flex;
+	justify-content: center;
+	font-size: 0.8em;
+	margin-left: 2.5%;
+	
+   }
+
    #conteneur3
    {
+   	font-size: 0.7em;
    	flex-direction: column;
    	align-items: center;
    	padding-left: 0%;
@@ -1763,9 +1904,10 @@ footer a
 
    #afficher_plus
 	{
+	margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
-    font-size: 0.8em;
+    font-size: 0.6em;
 	}
 
    #activites
@@ -1773,7 +1915,7 @@ footer a
 	margin-left: 8%;
 	margin-top: 5%;
 	margin-bottom: 30px;
-	font-size: 1.8em;
+	font-size: 1.3em;
 	}
 
    #activite1,#groupe1,#activite5
@@ -1796,9 +1938,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
 	#act1
@@ -1812,9 +1954,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
    #act2
@@ -1828,9 +1970,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
    #act3
@@ -1844,9 +1986,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
    #act4
@@ -1860,9 +2002,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
    #act5
@@ -1876,9 +2018,9 @@ footer a
    	background-position: 50%;
 	background-size: 100%;
 	position:relative;
-	width: 800px;
-	height: 500px;
-	border-radius: 50px;ç
+	width: 320px;
+	height: 200px;
+	border-radius: 20px;
    }
 
    #act6
@@ -1892,7 +2034,8 @@ footer a
 	flex-direction: column;
     padding-top: 3%;
 	background-color: #F2F2F2;
-	padding-bottom: 30px;
+	padding-bottom: 2%;
+	font-size: 0.7em;
 	}
 
 	#propos
@@ -1910,4 +2053,24 @@ footer a
 	{
     width: 100%;
 	}
+
+	.stars 
+	{
+	display: inline-flex;
+	justify-content: center;
+	font-size: 0.8em;
+	margin-left: 2.5%;
+	}
+
+	.stars2
+	{
+	display: inline-flex;
+	justify-content: center;
+	font-size: 0.8em;
+	margin-left: 10%;
+	}
+}
+@media screen and (max-width: 768px)
+{
+
 }
