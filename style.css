@@ -368,6 +368,8 @@ aside
 {
 	display: flex;
 	justify-content: center;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 
 #activite1,#groupe1,#activite5
