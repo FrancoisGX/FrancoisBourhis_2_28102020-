@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: "raleway";  
-	src:url("/police/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+	src:url("./police/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
 body
@@ -259,6 +259,11 @@ button:hover
 	color:#0065FC;
 }
 
+#reference
+{
+	display: none;
+}
+
 section
 {
 	display: flex;
@@ -266,7 +271,7 @@ section
 
 #heber
 {
-	margin-left: 3%;
+	margin-left: 2.5%;
 	background-color: #F2F2F2;
 	flex: 3;
 	border-radius: 20px;
@@ -415,14 +420,14 @@ footer
 	padding-bottom: 30px;
 }
 
-footer dt
+footer ul
 {
-	padding-top: 2%;
-	font-weight: bold;
+	list-style-type: none;
+	padding-left: 0%;
     font-size: 1.2em;
 }
 
-footer dd
+footer li
 {
 	padding-top: 2%;
 	margin-left: 0px;
@@ -1524,6 +1529,7 @@ h3 span
 
    #heber
    {
+   	margin-left: 0%;
    	display: flex;
    	padding-bottom: 20px;
    	padding-left: 0%;
@@ -2353,17 +2359,18 @@ h3 span
    #heber
    {
    	display: grid;
+   	margin-left:0%;
    	grid-template-columns: 1fr 1fr;
    	padding-bottom: 20px;
    	padding-left: 0%;
    	background-color: white;
-   	margin-left: 5%;
+   	margin-left: 0%;
    }
 
    #hebergement
 	{
 	margin-top: 7%;
-	margin-left: 2.5%;
+	margin-left: 5%;
 	margin-bottom: 5%;
 	font-size: 2em;
 	grid-column-start: 1;
@@ -2727,7 +2734,7 @@ h3 span
 	   	flex-wrap: wrap;
 	   	font-size: 0.7em;
 	   	padding-right: 0%;
-	   	padding-left: 0%;_
+	   	padding-left: 0%;
 	}
 
 	#acti
